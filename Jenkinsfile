@@ -6,7 +6,7 @@ pipeline {
         }
     }
     stages {
-        stage('preBuild'){
+        stage('pre1Build'){
             steps{
                 sh 'echo "Hello World"'
             }
